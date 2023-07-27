@@ -1,1 +1,1 @@
-# elimina
+# Exel to CSV sismet format:
