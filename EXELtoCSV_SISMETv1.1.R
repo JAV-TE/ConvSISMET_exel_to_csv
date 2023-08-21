@@ -64,7 +64,7 @@ for(estacion in list_est){
   CALT <- append(CALT, alt)
   
   #DATAFRAME FIN 
-  cdate_fin <- seq.Date(from = as.Date(paste('1940','01','01', sep = '-')), to = as.Date(paste('2023','12','31', sep = '-')), by = 'days')
+  cdate_fin <- seq.Date(from = as.Date('1940-01-01'), to = as.Date('2023-12-31'), by = 'days')
   cdate_tri <- separate(data.frame(date= as.character(cdate_fin)),col=date,into=c("yy","mm","dd"),sep="-", convert = TRUE  )
   
   #UNIQUE YEAR COUNT MONTHS  
