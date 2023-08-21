@@ -1,4 +1,4 @@
-# De formato .xls a FORMATO csv (ASCII)
+# De formato .xls (SISMET) a FORMATO csv (ASCII)
 
 Dentro del script "EXELtoCSV_SISMETv1.1.R", se debe modificar las direcciones de salida y entrada. Esta conficurado para convertir de la fecha "1940-01-01" a "2023-12-31", los ausentes rellenados con NA.
 
